@@ -4,8 +4,10 @@ importers:
 
   .:
     specifiers:
+      pnpm: ^6.23.6
       turbo: ^1.0.6
     devDependencies:
+      pnpm: 6.23.6
       turbo: 1.0.6
 
   app:
@@ -2812,6 +2814,12 @@ packages:
   /platform/1.3.6:
     resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
     dev: false
+
+  /pnpm/6.23.6:
+    resolution: {integrity: sha512-H6PIzO4W2zg2Jqms13uS5U3fU8yBdWk8rXcpJLjs/in+nutgVA8GGlasEAI2eAiTpc9FYJUkCklbJ4a/M36N0w==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: true
 
   /postcss/8.2.15:
     resolution: {integrity: sha512-2zO3b26eJD/8rb106Qu2o7Qgg52ND5HPjcyQiK2B98O388h43A448LCslC0dI2P97wCAQRJsFvwTRcXxTKds+Q==}
